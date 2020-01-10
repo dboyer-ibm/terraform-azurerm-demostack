@@ -27,13 +27,13 @@ k2eJFZhaLsaAO6lN1gDrJzZkv3G7VXY7yBMYX0hfXckSuAhrXmg2cmDDfvm0Y+Vt
 noZqe+VIj7m8u0GZ895A63Wem1ulQ72jnVJMUu/phA==
 -----END EC PRIVATE KEY-----
 EOT
-consul_gossip_key = MTI0OTE5MzlkMmQzNmNhMzExMzBjYTEwYzJhNDA5NmE=
-consul_join_tag_value = f639b7efede087f99a32caaa999d5978
-consul_master_token = d8834776cd1117b2c454f452599258fa
-nomad_gossip_key = OTcwOWUxNzQ0MGI4ODNlZWM2ZGE4OTg4NTMwMjc4MDU=
+consul_gossip_key = "MTI0OTE5MzlkMmQzNmNhMzExMzBjYTEwYzJhNDA5NmE="
+consul_join_tag_value = "f639b7efede087f99a32caaa999d5978"
+consul_master_token = "d8834776cd1117b2c454f452599258fa"
+nomad_gossip_key = "OTcwOWUxNzQ0MGI4ODNlZWM2ZGE4OTg4NTMwMjc4MDU="
 
 admin_password = "Sup3rS3cureP4ssw0rd"
-admin_username = "guyser"
+admin_username = "DavidBoyer"
 
 consul_ent_url = "https://releases.hashicorp.com/consul/1.6.0+ent-rc1/consul_1.6.0+ent-rc1_linux_amd64.zip"
 consullicense = ""
@@ -41,10 +41,10 @@ consul_url = "https://releases.hashicorp.com/consul/1.6.0-rc1/consul_1.6.0-rc1_l
 enterprise = "1"
 fabio_url = "https://github.com/fabiolb/fabio/releases/download/v1.5.11/fabio-1.5.11-go1.11.5-linux_amd64"
 hostname = "demostack"
-location = "ukwest"
+location = "westeurope"
 nomad_ent_url = "https://releases.hashicorp.com/nomad/0.10.0-connect1/nomad_0.10.0-connect1_linux_amd64.zip"
 nomad_url = "https://releases.hashicorp.com/nomad/0.10.0-connect1/nomad_0.10.0-connect1_linux_amd64.zip"
-owner = "guybarros"
+owner = "dboyer"
 resource_group = "dboyer-demostack"
 servers = "3"
 workers = "3"
