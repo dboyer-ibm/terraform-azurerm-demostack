@@ -12,12 +12,12 @@ variable "resource_group" {
 
 variable "demo_prefix" {
   description = "This prefix will be included in the name of some resources."
-  default     = "dboyer-demostack"
+  default     = "demostack"
 }
 
 variable "hostname" {
   description = "VM hostname. Used for local hostname, DNS, and storage-related names."
-  default     = "dboyer-demostack"
+  default     = "demostack"
 }
 
 variable "location" {
